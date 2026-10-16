@@ -1,0 +1,13 @@
+params:
+  - id: login_password
+    type: secret
+    name: "Login Password"
+    description: "Password for Flame login"
+    default_value: "$random(len=20)"
+    optional: false
+
+locales:
+  zh:
+    login_password:
+      name: "登录密码"
+      description: "Flame 登录密码，首次部署自动生成"

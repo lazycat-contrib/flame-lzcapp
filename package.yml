@@ -1,0 +1,18 @@
+package: community.lazycat.app.flame
+version: 2.4.0
+name: Flame 启动页
+description: 自托管服务器启动页，内置编辑器管理应用与书签
+min_os_version: 1.5.0
+homepage: https://github.com/pawelmalak/flame
+author: pawelmalak
+license: MIT
+locales:
+  zh:
+    name: Flame 启动页
+    description: 自托管服务器启动页，内置编辑器管理应用与书签
+  zh_CN:
+    name: Flame 启动页
+    description: 自托管服务器启动页，内置编辑器管理应用与书签
+  en:
+    name: Flame Startpage
+    description: Self-hosted startpage for your server, manage apps and bookmarks with built-in editors
