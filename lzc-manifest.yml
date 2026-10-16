@@ -14,10 +14,10 @@ application:
           params:
             user: admin
             password: "{{ .U.login_password }}"
-
 services:
   flame:
     # pawelmalak/flame:2.4.0
+    # upstream: pawelmalak/flame:2.4.0
     image: docker.1ms.run/pawelmalak/flame:2.4.0
     environment:
       - PASSWORD={{ .U.login_password }}
